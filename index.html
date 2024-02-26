@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF -8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jonelle Ervyn Mesa Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+
+
+<body class="preload">
+    <header id="header">
+        <button class="header__button menu-icon" id="btnNav" type="button">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="logo">PORTFOLIO</div>
+    <nav class="navbar">
+        <div class="nav_links">
+            <a href="#home" class="navbar-link navbar-link--active">Home</a>
+            <a href="#about" class="navbar-link">About</a>
+            <a href="#skills" class="navbar-link">Skills</a>
+            <a href="#projects" class="navbar-link">Projects</a>
+            <a href="#certificates" class="navbar-link">Certificates</a>
+            <a href="#contact" class="navbar-link">Contact</a>
+        </div>
+        <div class="nav__overlay"></div>
+    </nav>
+
+</header>
+
+<!-- Content Sections -->
+<section id="home" class="link-content">
+    <div class="header-content">
+        <div class="text-container">
+            <h3>Hello! I'm</h3>
+            <h1>Engr. Jonelle Ervyn Mesa</h1>
+            <h3><span class="text"></span></h3>
+            <div class="social-media">
+                <a href="https://www.facebook.com/jonelleervyn.mesa.5/"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/nelle_rvyn/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/jonelleervynmesa/"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/JonelleErvynMesa"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="images\Jonelle Ervyn Mesa - CV.pdf" class="btn-box">DOWNLOAD CV <i class='bx bxs-download'></i></a>
+        </div>
+        <img src="images\Jonelleimg.png" alt="image" class="header-image">
+    </div>
+</section>
+
+<section id="about"  class="link-content">
+    <div class="container"> 
+        <div class="about-col-1">
+            <img src="images\sashgradpic.jpg" alt="Profile Picture">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <div class="my-info">
+                I am Jonelle Ervyn D. Mesa. I took up a bachelor degree of Computer Engineering
+                at Batangas State University -The National Engineering University 
+                
+                I developed a strong foundation when it comes to computer engineering principles, programming language and front end development. During my tenure as an intern at Pixel 8 Web Solution and Consultancy Inc., I refined my expertise in web development, gaining proficiency in HTML, CSS, and JavaScript. I successfully completed the projects during my trainings that showcased my ability to create responsive and interactive web interfaces that enhance user experience and inclusivity. This experience has not only equipped me with technical skills but has also instilled in me a strong sense of adaptability and creativity.
+                A significant skill of mine involves nurturing collaboration and overseeing project schedules. I have adeptly interacted with varied teams, ensuring smooth communication and teamwork. Moreover, my proficiency in tools like Microsoft Office, the Quasar framework, and Vue JS Frameworks has contributed to streamlined teamwork and project accomplishment. I am confident that my academic accomplishments, projects and technical competencies, which are detailed in my attached resume, reflect my dedication to excellence and continuous growth.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills"  class="link-content">
+    <div class="back-info">
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="Skills">
+            <div class="content-section">
+                <h1><span><img src="images\languages.png" alt="programminglanguages">Programming Languages</span></h1>
+                <ul>
+                    <li>
+                        <img src="images\pythonlogo.png" alt="python">Python
+                    </li>
+                    <li>
+                        <img src="images\javalogo.png" alt="java">Java
+                    </li>
+                    <li>
+                        <img src="images\javascriptlogo.png" alt="javascript">Javascript
+                    </li>
+                    <li>
+                        <img src="images\php.png" alt="php">PHP
+                    </li>
+                </ul>
+            </div>
+            <div class="content-section">
+                <h1><span><img src="images\frameworks.png" alt="frameworks">Frameworks</span></h1>
+                <ul>
+                    <li>
+                        <img src="images\vue.png" alt="Vue">Vue
+                    </li>
+                    <li>
+                        <img src="images\quasar.png" alt="Quasar">Quasar
+                    </li>
+                    <li>
+                        <img src="images\angular.png" alt="Angular">Angular
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-contents" id="Experiences">
+            <div class="content-section">
+                <h1><span><img src="images\sidc.png" alt="sidc">Associate Software Engineer</span></h1>
+                <ul>
+                    <li>Soro Soro Ibaba Development Cooperative</li>
+                    <li>Batangas City</li>
+                    <li>Present</li>
+                </ul>
+            </div>
+            <div class="content-section">
+                <h1><span><img src="images\pixel8.png" alt="pixel8">Front End Developer</span></h1>
+                <ul>
+                    <li>Pixel 8 Web Solution and Consultancy Inc.</li>
+                    <li>Legazpi, Albay</li>
+                    <li>2022</li>
+                </ul>
+            </div>
+            <div class="content-section">
+                <h1><span><img src="images\slsu.png" alt="slsu">Encoder</span></h1>
+                <ul>
+                    <li>Southern Luzon State University</li>
+                    <li>Tiaong, Quezon</li>
+                    <li>2019</li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-contents" id="Education">
+            <div class="content-section">
+                <h1><span><img src="images\bsu.png" alt="bsu">Batangas State University</span></h1>
+                <ul>
+                    <li>Bachelor of Science in Computer Engineering</li>
+                    <li>Batangas City</li>
+                    <li>2019-2023</li>
+                </ul>
+            </div>
+            <div class="content-section">
+                <h1><span><img src="images\cstc.png" class="cstc" alt="cstc">College of Sciences Technology and Communications Inc.</span></h1>
+                <ul>
+                    <li>Junior High School & Senior High School</li>
+                    <li>Sariaya, Quezon</li>
+                    <li>2013-2019</li>
+                </ul>
+            </div>
+            <div class="content-section">
+                <h1><span><img src="images\jres.png" alt="joserizal">Jose Rizal Elementary School</span></h1>
+                <ul>
+                    <li>Elementary</li>
+                    <li>Sariaya, Quezon</li>
+                    <li>2006-2012</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects"   class="link-content">
+    <div class="container">
+        <h1 class="sub-title2"></h1>
+        <div class="project-list">
+            <div class="project-item">
+                <div class="project-details">
+                    <h2>Thesis Project</h2>
+                    <h3>Monitoring and Classification of Nitrate Sufficiency of lettuce an Aquaponics System
+                        based on Morphological Status using a Machine Vision Approach</h3>
+                    <p>This study has successfully developed a machine vision-based monitoring and classification system for assessing nitrate sufficiency in aquaponics based on the morphological status of lettuce. The project achieved its specific aims as follows:
+                        Firstly, an extensive image dataset of lettuce plants under varying nitrate conditions in an aquaponic system was collected, including both nitrate-deficient and nitrate-sufficient conditions. Secondly, the study identified the top-performing algorithm suitable for classifying and segmenting the lettuce's morphological status with a high degree of accuracy. Finally, the system's capabilities were put into practical use by controlling the frequency of the fish feeding mechanism based on the model's inference results. This regulation effectively managed nitrate levels in the water, ensuring optimal conditions for lettuce growth.
+                        
+                        In conclusion, this project has successfully created a sophisticated machine vision-based solution that enhances the management of nitrate levels in aquaponics, ultimately promoting the health and productivity of lettuce crops.</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-details">
+                    <h2>Cognate Project</h2>
+                    <h3>Drowsiness Detection</h3>
+                    <p>A project employing a deep learning approach that utilized a Mask R-CNN algorithm to distinguish whether a person is drowsy based on the status of their eyes being open or closed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="certificates"  class="link-content">
+    <div class="certificate-item">
+        <img src="images\5Gn.png" alt="5G Certificate" class="certificate-img">
+    </div>
+    <div class="certificate-item">
+        <img src="images\Agile_Scrum.png" alt="Agile and Scrum Certificate" class="certificate-img">
+    </div>
+    <div class="certificate-item">
+        <img src="images\Cloud_Computing.png" alt="Cloud Computing Certificate" class="certificate-img">
+    </div>
+    <div class="certificate-item">
+        <img src="images\Ethical_Hacking.png" alt="Ethical Hacking Certificate" class="certificate-img">
+    </div>
+    <div class="certificate-item">
+        <img src="images\Industrial_Revolution.png" alt="Industrial Revolution Certificate" class="certificate-img">
+    </div>
+    <div class="certificate-item">
+        <img src="images\web.png" alt="Web Certificate" class="certificate-img">
+    </div>
+</section>
+
+<section id="contact"  class="link-content">
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+            <h2>Get in Touch</h2>
+            <p>Have a project in mind or want to collaborate? Let's talk!</p>
+            <div class="form-group">
+                <input type="hidden" name="access_key" value="d0837ead-2e5a-4f77-9df8-3f18821a5bed">
+                <input type="text" name="Name" placeholder="Enter your Name" required>
+                <input type="email" name="Email" placeholder="Enter your Email" required>
+                <textarea type="text" name="Message" placeholder="Send us message" id="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <div class="info-item">
+                <p> <i class='bx bxl-gmail'></i>jonelle.ervyn.mesa02@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <p> <i class='bx bxs-home'></i>Sariaya,Quezon</p>
+            </div>
+            <div class="info-item">
+                <p> <i class='bx bxs-phone'></i>09493256483</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
+<script>
+
+     document.addEventListener('DOMContentLoaded', function() {
+        const sidebarLinks = document.querySelectorAll('.navbar-link');
+        const contentSections = document.querySelectorAll('.link-content');
+
+        // Function to hide all content sections except the home section
+        function showHomeContent() {
+            contentSections.forEach(section => {
+                if (section.id === 'home') {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        }
+
+        // Show only home content when page reloads
+        window.addEventListener('load', showHomeContent);
+
+        // Event listener for navigation links
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent the default link behavior
+
+                // Hide all content sections
+                contentSections.forEach(section => {
+                    section.style.display = 'none';
+                });
+
+                // Get the target content section
+                const targetId = link.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+
+                // Display the target content section
+                if (targetSection) {
+                    targetSection.style.display = 'block';
+                }
+            });
+        });
+
+        // Reset form and refresh page after submission
+        const contactForm = document.getElementById('contact-form');
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            this.reset(); // Reset the form
+            window.location.reload(); // Refresh the page
+        });
+    });
+
+    // Skills tab-links
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+    document.addEventListener("DOMContentLoaded", () => {
+    const nav = document.querySelector(".navbar");
+    const navOverlay = document.querySelector(".nav__overlay");
+    const menuIcon = document.querySelector(".menu-icon");
+
+    // Function to open the navbar
+    function openNav() {
+        nav.classList.add("active");
+        navOverlay.classList.add("active");
+    }
+
+    // Function to close the navbar
+    function closeNav() {
+        nav.classList.remove("active");
+        navOverlay.classList.remove("active");
+    }
+
+    // Toggle navbar when menu icon is clicked
+    menuIcon.addEventListener("click", () => {
+        if (nav.classList.contains("active")) {
+            closeNav();
+        } else {
+            openNav();
+        }
+    });
+
+    // Close navbar when clicking outside of it
+    document.addEventListener("click", (event) => {
+        if (!nav.contains(event.target) && !menuIcon.contains(event.target)) {
+            closeNav();
+        }
+    });
+
+    // Close navbar when clicking on overlay
+    navOverlay.addEventListener("click", () => {
+        closeNav();
+    });
+
+    // Close navbar when a link is clicked
+    const navLinks = document.querySelectorAll(".navbar-link");
+    navLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            closeNav();
+        });
+    });
+});
+
+</script>
+ <script src="main.js"></script>
+ <script SRC="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
